@@ -1,0 +1,12 @@
+connect to cs157a;
+Create Trigger CannotTake
+BEFORE INSERT ON HW3.Schedule
+REFERENCING NEW ROW AS newClass
+FOR EACH ROW
+BEGIN ATOMIC
+DECLARE hold_PreReqID INTEGER;
+SELECT PreReqID INTO hold_PreReqID FROM HW3.Schedule INNER JOIN HW3.ClassReq ON HW3.ClassReq.ClassID = HW3.Schedule.ClassID;
+IF(NOT EXISTS(SELECT * FROM HW3.Schedule WHERE classID = hold_PreReqID)
+SIGNAL SQLSTATE '10000' SET MESSAGE_TEXT = 'Missing Pre-Req';
+END^
+

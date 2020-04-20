@@ -1,0 +1,5 @@
+To run p2, please run p2_create.sql file first and then run p2.sql, which has the stored procedures.
+
+Then run p2_quick_test given by the professor to view the results of the stored procedures.
+
+p2_drop.sql will drop tables and dropProc.sql will drop stored procedures.

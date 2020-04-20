@@ -1,0 +1,230 @@
+
+2019-10-15-00.57.03.826073   Instance:db2inst1   Node:000
+PID:13395(db2star2)   TID:2299639680   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-15-00.57.51.554010   Instance:db2inst1   Node:000
+PID:13972(db2stop2)   TID:1134229376   Appid:none
+base sys utilities  DB2StopMain Probe:911 
+
+ADM7514W  Database manager has stopped.
+
+2019-10-15-00.57.53.795738   Instance:db2inst1   Node:000
+PID:13976(db2star2)   TID:393963392   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-15-00.59.50.136952   Instance:db2inst1   Node:000
+PID:14915(db2stop2)   TID:42878848   Appid:none
+base sys utilities  DB2StopMain Probe:911 
+
+ADM7514W  Database manager has stopped.
+
+2019-10-15-00.59.52.548567   Instance:db2inst1   Node:000
+PID:14918(db2star2)   TID:1353668480   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-15-01.29.00.969437   Instance:db2inst1   Node:000
+PID:14299(db2star2)   TID:3571025792   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-15-01.29.05.926093   Instance:db2inst1   Node:000
+PID:14305(db2logmgr (TESTDB) 0)   TID:2889869056   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000000.LOG"
+
+2019-10-15-01.29.05.941513   Instance:db2inst1   Node:000
+PID:14305(db2logmgr (TESTDB) 0)   TID:2889869056   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000000.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-15-01.29.08.838072   Instance:db2inst1   Node:000
+PID:14305(db2logmgr (TESTDB) 0)   TID:2894063360   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000001.LOG"
+
+2019-10-15-01.29.08.860700   Instance:db2inst1   Node:000
+PID:14305(db2logmgr (TESTDB) 0)   TID:2894063360   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000001.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-17-01.16.53.130567   Instance:db2inst1   Node:000
+PID:14412(db2star2)   TID:2718246784   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-17-01.16.58.075582   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:3137332992   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000002.LOG"
+
+2019-10-17-01.16.58.092589   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:3137332992   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000002.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-17-01.17.01.065983   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:3141527296   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000003.LOG"
+
+2019-10-17-01.17.01.087453   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:3141527296   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000003.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-17-01.18.33.097985   Instance:db2inst1   Node:000
+PID:14418(db2agent (CS157A) 0)   TID:3149915904   Appid:*LOCAL.db2inst1.191017011832
+recovery manager  sqlpresr Probe:200   Database:CS157A
+
+ADM1530I  Crash recovery has been initiated.
+
+2019-10-17-01.18.33.706682   Instance:db2inst1   Node:000
+PID:14418(db2agent (CS157A) 0)   TID:3149915904   Appid:*LOCAL.db2inst1.191017011832
+recovery manager  sqlpresr Probe:3100   Database:CS157A
+
+ADM1531I  Crash recovery has completed successfully.
+
+2019-10-17-21.05.22.513784   Instance:db2inst1   Node:000
+PID:14414(db2star2)   TID:4012091264   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-17-21.05.28.270481   Instance:db2inst1   Node:000
+PID:14420(db2logmgr (TESTDB) 0)   TID:3435128576   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000004.LOG"
+
+2019-10-17-21.05.28.328693   Instance:db2inst1   Node:000
+PID:14420(db2logmgr (TESTDB) 0)   TID:3435128576   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000004.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-17-21.05.31.011791   Instance:db2inst1   Node:000
+PID:14420(db2logmgr (TESTDB) 0)   TID:3418351360   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000005.LOG"
+
+2019-10-17-21.05.31.071694   Instance:db2inst1   Node:000
+PID:14420(db2logmgr (TESTDB) 0)   TID:3418351360   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000005.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-21-04.05.54.819905   Instance:db2inst1   Node:000
+PID:14412(db2star2)   TID:2391213952   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-21-04.06.00.148485   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:1820321536   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000006.LOG"
+
+2019-10-21-04.06.00.171851   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:1820321536   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000006.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-21-04.06.03.387177   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:1799350016   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000007.LOG"
+
+2019-10-21-04.06.03.407249   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:1799350016   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000007.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-21-04.07.34.542101   Instance:db2inst1   Node:000
+PID:14418(db2agent (CS157A) 0)   TID:1832904448   Appid:*LOCAL.db2inst1.191021040734
+recovery manager  sqlpresr Probe:200   Database:CS157A
+
+ADM1530I  Crash recovery has been initiated.
+
+2019-10-21-04.07.35.291272   Instance:db2inst1   Node:000
+PID:14418(db2agent (CS157A) 0)   TID:1832904448   Appid:*LOCAL.db2inst1.191021040734
+recovery manager  sqlpresr Probe:3100   Database:CS157A
+
+ADM1531I  Crash recovery has completed successfully.
+
+2019-10-29-01.10.38.688805   Instance:db2inst1   Node:000
+PID:14412(db2star2)   TID:1596364672   Appid:none
+base sys utilities  DB2StartMain Probe:911 
+
+ADM7513W  Database manager has started.
+
+2019-10-29-01.10.43.606997   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:4152354560   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000008.LOG"
+
+2019-10-29-01.10.43.627558   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:4152354560   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000008.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-29-01.10.46.387671   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:4156548864   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3109   Database:TESTDB  
+
+ADM1844I  Started archive for log file "S0000009.LOG"
+
+2019-10-29-01.10.46.407043   Instance:db2inst1   Node:000
+PID:14418(db2logmgr (TESTDB) 0)   TID:4156548864   Appid:none
+data protection services  sqlpgArchiveLogFile Probe:3175   Database:TESTDB  
+
+ADM1846I  Completed archive for log file "S0000009.LOG" to 
+"/database/logs/db2inst1/TESTDB/NODE0000/LOGSTREAM0000/C0000000/" from 
+"/database/data/db2inst1/NODE0000/SQL00001/LOGSTREAM0000/".
+
+2019-10-29-01.25.09.976952   Instance:db2inst1   Node:000
+PID:17633(db2stop2)   TID:2654734208   Appid:none
+base sys utilities  DB2StopMain Probe:911 
+
+ADM7514W  Database manager has stopped.

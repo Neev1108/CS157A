@@ -1,0 +1,1 @@
+For p3, the only problem I had with the db-1 properties batch file was the account summary the second time. The account summary worked the first time, but after closing an account, it did not work. 
